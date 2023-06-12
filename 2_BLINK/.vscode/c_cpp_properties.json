@@ -1,0 +1,40 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "C:/Users/raghavkorde/Documents/PlatformIO/Projects/2_BLINK/include",
+                "C:/Users/raghavkorde/Documents/PlatformIO/Projects/2_BLINK/src",
+                "C:/Users/raghavkorde/Documents/PlatformIO/Projects/2_BLINK/.pio/libdeps/LaunchPad_msp430g2553/Unity/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "C:/Users/raghavkorde/Documents/PlatformIO/Projects/2_BLINK/include",
+                    "C:/Users/raghavkorde/Documents/PlatformIO/Projects/2_BLINK/src",
+                    "C:/Users/raghavkorde/Documents/PlatformIO/Projects/2_BLINK/.pio/libdeps/LaunchPad_msp430g2553/Unity/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "F_CPU=16000000L",
+                "PLATFORMIO=60107",
+                "ENERGIA_ARCH_MSP430",
+                "ENERGIA_MSP_EXP430G2553LP",
+                ""
+            ],
+            "compilerPath": "C:/Users/raghavkorde/.platformio/packages/toolchain-timsp430/bin/msp430-gcc.exe",
+            "compilerArgs": [
+                "-mmcu=msp430g2553",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
